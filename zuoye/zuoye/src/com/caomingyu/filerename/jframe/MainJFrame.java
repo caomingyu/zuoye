@@ -12,6 +12,8 @@ import java.io.IOException;
 import java.util.regex.Pattern;
 
 /**
+ * 测试提交
+ *
  * 面板类，显示面板
  * @author 曹明宇
  * @version v1.0
@@ -63,6 +65,7 @@ public class MainJFrame {
         /**
          * 生成JFrame
          */
+		 System.out.println();
         JFrame f = new JFrame("文件批量改名");
         f.setLayout(new FlowLayout());
         JFileChooser fc = new JFileChooser();
