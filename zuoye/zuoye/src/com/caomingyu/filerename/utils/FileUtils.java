@@ -4,7 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 /**
- * 自定义文件操作类
+ *测试推送！！！！！ 
+ *自定义文件操作类
  *@ClassName: FileUtils
  *@Description: 自定义文件操作类 FileUtils
  *@author 曹明宇
@@ -26,6 +27,7 @@ public class FileUtils {
     public static void show(File[]files, JTextArea ta){
         for (File f : files
                 ) {
+				System.out.println();
             ta.append(f.getName() + "\n");
         }
     }
