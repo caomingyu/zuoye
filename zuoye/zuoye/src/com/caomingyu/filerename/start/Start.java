@@ -2,6 +2,7 @@ package com.caomingyu.filerename.start;
 
 import com.caomingyu.filerename.jframe.MainJFrame;
 /**
+ *测试推送！！！
  * 程序运行类
  *@ClassName: Start
  *@Description: 程序开始类
@@ -19,6 +20,7 @@ public class Start {
      * @param args
      */
     public static void main(String[] args) {
+		System.out.prinln();
         MainJFrame.getInstance();
     }
 }
